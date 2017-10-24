@@ -1,0 +1,67 @@
+﻿.JHmodal {
+    position: fixed;
+    display: none;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(5,5,5,.7);
+    padding: 10px;
+    z-index:3;
+}
+
+    .JHmodal.open {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+      
+    }
+
+.JHmodal-open {
+    cursor: pointer;
+}
+
+
+.JHmodal-content {
+    position: relative;
+    max-width: 100%;
+    min-height: 50px;
+    /*background-color: #fff;*/
+    /*box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 45px, rgba(0, 0, 0, 0.22) 0px 10px 18px;*/
+    padding: 5px;
+    text-align: center;
+    z-index: 4;
+}
+
+
+
+
+.JH-nav > .JH-prev,
+.JH-nav > .JH-next {
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 50px);
+    padding:50px 25px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 2;
+    text-decoration: none;
+}
+
+
+    .JH-nav > .JH-prev:hover,
+    .JH-nav > .JH-next:hover {
+        opacity: .5;
+    }
+
+.JH-nav > .JH-prev {
+    left: 0px;
+}
+
+.JH-nav > .JH-next {
+    right: 0px;
+}
