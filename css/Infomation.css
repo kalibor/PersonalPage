@@ -76,7 +76,7 @@
 
         .skill-area .owl-dot.active {
             background-color: rgba(255,255,255,1);
-            color: #70C1B3;
+            color: #247BA0;
             box-shadow: 2px 5px 5px rgba(155,155,155,.6);
         }
 
@@ -109,7 +109,7 @@
 
 .skill-bar > .skill-percent {
     position: relative;
-    background-color: #B2DBBF;
+    background-color: #247BA0;
     width: 0%;
     height: 10px;
     border-radius: 2px;
@@ -124,7 +124,7 @@
         height: 30px;
         bottom: calc(100% + 10px);
         right: -22.5px;
-        background-color: #70C1B3;
+        background-color: #247BA0;
         color: #fff;
         border-radius: 5px;
         box-shadow: 1px 1px 4px rgba(3,3,3,.1), 1px 1px 2px rgba(3,3,3,.1);
@@ -138,7 +138,7 @@
             width: 10px;
             height: 10px;
             transform: rotate(45deg);
-            background-color: #70C1B3;
+            background-color: #247BA0;
             box-shadow: 1px 1px 4px rgba(3,3,3,.1), 1px 1px 2px rgba(3,3,3,.1);
         }
 
@@ -152,7 +152,7 @@
 
 
 .language-item {
-    color: #70C1B3;
+    color: #555;
     font-size: 16.5px;
     font-weight: 700;
     padding: 10px 5px;
