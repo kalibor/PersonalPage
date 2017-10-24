@@ -63,7 +63,7 @@
         overflow: hidden;
         letter-spacing: 3px;
         border-radius: 2px;
-        background-color: #555;
+        background-color: #247BA0;
         box-shadow: 2px 2.5px 2.5px rgba(155,155,155,.6);
     }
 
@@ -76,7 +76,7 @@
 
         .skill-area .owl-dot.active {
             background-color: rgba(255,255,255,1);
-            color: #555;
+            color: #70C1B3;
             box-shadow: 2px 5px 5px rgba(155,155,155,.6);
         }
 
@@ -109,7 +109,7 @@
 
 .skill-bar > .skill-percent {
     position: relative;
-    background-color: #555;
+    background-color: #B2DBBF;
     width: 0%;
     height: 10px;
     border-radius: 2px;
@@ -124,7 +124,7 @@
         height: 30px;
         bottom: calc(100% + 10px);
         right: -22.5px;
-        background-color: #555;
+        background-color: #70C1B3;
         color: #fff;
         border-radius: 5px;
         box-shadow: 1px 1px 4px rgba(3,3,3,.1), 1px 1px 2px rgba(3,3,3,.1);
@@ -138,7 +138,7 @@
             width: 10px;
             height: 10px;
             transform: rotate(45deg);
-            background-color: #555;
+            background-color: #70C1B3;
             box-shadow: 1px 1px 4px rgba(3,3,3,.1), 1px 1px 2px rgba(3,3,3,.1);
         }
 
@@ -152,7 +152,7 @@
 
 
 .language-item {
-    color: #555;
+    color: #70C1B3;
     font-size: 16.5px;
     font-weight: 700;
     padding: 10px 5px;
@@ -246,7 +246,7 @@
     color: #fff;
     display: inline-block;
     width: calc(100% - 50px);
-    background-color: #555;
+    background-color: #247BA0;
     padding: 10px;
     transition: box-shadow ease .2s;
     box-shadow: 2px 5px 5px rgba(155,155,155,.6);
@@ -470,7 +470,7 @@
 .footer {
     position: relative;
     width: 100%;
-    background-color: #555;
+    background-color: #247BA0;
 }
 
 .footer-item {
