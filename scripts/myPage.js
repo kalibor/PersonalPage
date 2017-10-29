@@ -24,7 +24,7 @@
 
 
             var grd = ctx.createLinearGradient(circle_width * 2, circle_width * 2, 0, 0);
-            grd.addColorStop(0, "#247BA0");
+            grd.addColorStop(0, "#555");
 
             ctx.beginPath();
             ctx.lineCap = "round";
