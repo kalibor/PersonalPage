@@ -532,8 +532,8 @@ module.exports = __webpack_require__(3);
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_JHmodal_css__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_JHmodal_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_JHmodal_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_mypage_css__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_mypage_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_mypage_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_mypage_css_aaa__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_mypage_css_aaa___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_mypage_css_aaa__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scripts_JHmodal__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scripts_JHmodal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__scripts_JHmodal__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scripts_mypage__ = __webpack_require__(10);
@@ -776,8 +776,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!./mypage.css", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!./mypage.css");
+		module.hot.accept("!!../node_modules/css-loader/index.js!./mypage.css?aaa", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!./mypage.css?aaa");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});

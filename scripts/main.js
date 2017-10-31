@@ -1,7 +1,7 @@
 
 /*css*/
 import '../css/JHmodal.css'; 
-import '../css/mypage.css';
+import '../css/mypage.css?aaa';
 
 /*scripts*/
 import '../scripts/JHmodal'
