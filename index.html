@@ -11,7 +11,6 @@
     <link href="css/animate.css" rel="stylesheet" />
     <style>
 
-  
     </style>
 
 </head>
@@ -19,7 +18,17 @@
 
 <body>
 
-    <div class="container">
+    <div class="pageloading-background">
+        <div class="pageloading-progress"></div>
+        <div class="pageloading-content">
+            <canvas>
+                讀取中，請稍後...
+            </canvas>
+        </div>
+
+    </div>
+
+    <div class="container" style=" padding-top:20px;">
         <div class="col-sm-4 ">
             <div class="block">
 
@@ -288,7 +297,7 @@
                 </div>
             </div>
 
-        
+
             <div class="block">
                 <div class="col-xs-12 box portfolio-box">
                     <div class="box-title lg"><i class="fa fa-briefcase "></i>作品集</div>
@@ -318,14 +327,12 @@
 
                             <div class="modal-group" style="display:none">
                                 <div class=" JHmodal-open" data-modal-target="JHmodal1">
-                                    <iframe  class="portfolio-youtubevideo" src="https://www.youtube.com/embed/rprjmUK82f4" frameborder="0" allowfullscreen></iframe>
+                                    <iframe class="portfolio-youtubevideo" src="https://www.youtube.com/embed/rprjmUK82f4" frameborder="0" allowfullscreen></iframe>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-
-
 
 
 
@@ -335,8 +342,8 @@
 
 
         </div>
-    
-   
+
+
     </div>
 
     <footer class="footer">
@@ -384,6 +391,9 @@
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/owl.carousel.min.js"></script>
     <script src="dist/main_bundle.js"></script>
+    <script>
+ 
+    </script>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 ﻿(function ($) {
-
+    
     $.fn.extend({
         LoadSkillbar: function (percent) {
             var canvas = $(this);
@@ -133,15 +133,89 @@
         },
 
     });
+    /*******************************************************************************************************/
+    var setPageLoadProgress = function (rate, duration, compelete) {
+
+        if (!duration) {
+            duration = 1000;
+        }
+
+        var progressbar = $('.pageloading-progress');
 
 
+        progressbar.animate({
+            width: rate + '%'
+        }, duration, function () {
+            if (typeof compelete == 'function') {
+                compelete(progressbar);
+            }
+
+        });
+
+
+    };
+
+
+    /*
+     * *************************************************************************************************/
+
+    $.fn.extend({
+        setText: function (text) {
+            var me = $(this).find('canvas');
+
+            if (me.length) {
+                var ctx = me[0].getContext('2d');
+                var w = me.width();
+                var h = me.height();
+
+                ctx.clearRect(0, 0, w, h);
+
+                ctx.font = '30px Georgia';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(text, 0, (h / 2));
+
+
+            }
+        }
+    });
+
+    var setLoadingText = function () {
+        var content = $('.pageloading-content ')
+        var textArray = ['載入中，請稍後','載入中，請稍後.', '載入中，請稍後..', '載入中，請稍後...'];
+
+        setInterval(function () {
+            var index = content.data('TextIndex');
+            if (!index || index >= textArray.length) {
+                index = 0;
+            }
+            content.setText(textArray[index]);
+            index++;
+            content.data('TextIndex', index);
+        }, 300);
+    };
+
+
+    /****************************************************************************************************/
+
+    var Init = function () {
+        setPageLoadProgress(80, 2000);
+        setLoadingText();
+    };
+
+    Init();
+
+    /****************************************************************************************************/
     var timer;
     $(function () {
+        setPageLoadProgress(100, 500, function (progressbar) {
+            progressbar.parent().slideUp();
+            $('.skill-container').LoadSkillBar();
+            timer = requestAnimationFrame(animate);
+        });
 
-        $('.skill-container').LoadSkillBar();
 
-        timer = requestAnimationFrame(animate);
     });
+
 
 })(jQuery);
 
