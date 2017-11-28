@@ -687,6 +687,7 @@ body {
     background-color: #555;
     border-radius: 100%;
     animation-duration: .2s;
+    z-index:999;
 }
 
     .btnBackToTop:hover {
