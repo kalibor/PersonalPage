@@ -1372,7 +1372,6 @@ exports.push([module.i, "/*全域*/\r\nbody {\r\n    background-color: rgb(243,2
 
         $(window).on('scroll', function () {
             if (timeout) {
-                console.log(timeout)
                 clearTimeout(timeout);
             }
             var me = $(this);

@@ -201,7 +201,6 @@
 
         $(window).on('scroll', function () {
             if (timeout) {
-                console.log(timeout)
                 clearTimeout(timeout);
             }
             var me = $(this);
