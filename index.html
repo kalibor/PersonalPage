@@ -9,7 +9,38 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/owl.carousel.min.css" rel="stylesheet" />
     <link href="css/animate.css" rel="stylesheet" />
- 
+    <style>
+
+/*頁面載入進度條**/
+.pageloading-background {
+    position: fixed;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243,243,243);
+    z-index: 999;
+}
+
+.pageloading-progress {
+    height: 3px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #333;
+}
+
+.pageloading-content {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+   </style>
 </head>
 
 
@@ -385,7 +416,7 @@
         </div>
 
     </footer>
-    <span class="btnBackToTop fa fa-chevron-circle-up">
+    <span class="btnBackToTop fa fa-chevron-circle-up  hide">
 
     </span>
 

@@ -195,7 +195,7 @@
     };
 
      /****************************************************************************************************/
-    var setBackToTopButtone = function () {
+    var setBackToTopButton = function () {
         var timeout;
         var btn = $('.btnBackToTop');
 
@@ -240,7 +240,7 @@
     var Init = function () {
         setPageLoadProgress(80, 2000);
         setLoadingText();
-        setBackToTopButtone();
+        setBackToTopButton();
     };
 
     Init();

@@ -641,35 +641,6 @@ body {
 
 
 
-/*頁面載入進度條**/
-.pageloading-background {
-    position: fixed;
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(243,243,243);
-    z-index: 999;
-}
-
-.pageloading-progress {
-    height: 3px;
-    position: absolute;
-    top: 0;
-    width: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    background-color: #333;
-}
-
-.pageloading-content {
-    position: absolute;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5em;
-}
 
 /****回到頂部按鈕CSS*****/
 
